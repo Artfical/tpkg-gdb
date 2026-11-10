@@ -1,0 +1,25 @@
+{
+ "name": "gdb",
+ "version": "17.2",
+ "license": "GPL-3.0-or-later",
+ "homepage": "https://www.sourceware.org/gdb/",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "gdb-17.2.tar.xz"
+ ],
+ "desc": "GDB 17.2: the GNU debugger (breakpoints, stepping, backtraces, registers and memory; needs ptrace)",
+ "file": "gdb-17.2.tpkg",
+ "size": 5150812,
+ "sha256": "b3d469c89dfa75e1d72c874134ff10d95a340fdb49929783814e6d8675c34c88",
+ "unpacked": 12325327,
+ "min_build": 627,
+ "depends": [
+  "busybox"
+ ],
+ "commands": {
+  "gdb": "bin/gdb-tos"
+ }
+}

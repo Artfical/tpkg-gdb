@@ -1,0 +1,9 @@
+GDB 17.2 for tOS
+=================
+
+Built from gdb-17.2.tar.xz (beside this package) with --without-python --disable-tui --disable-gdbserver, linked statically.
+License: GPL-3.0-or-later (LICENSE).
+Added for tOS: bin/gdb-tos (the command `gdb`) starts the real gdb with its data folder and the program started directly.
+Known: one warning at start ("could not convert ... to UTF-32"): the static C library has no conversion tables.
+Not supported yet: debugging several threads of one program apart, hardware watchpoints, attaching to a running program
+(untested), Python scripting.
